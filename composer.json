@@ -6,6 +6,8 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "caouecs/laravel-lang": "*",
+        "laravel-lang/common": "*",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "simplesoftwareio/simple-qrcode": "^4.2"

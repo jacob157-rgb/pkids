@@ -12,7 +12,7 @@
     <meta property="og:description" content="P-Kids GPdI Mahanaim Tegal">
     <meta property="og:image" itemprop="image" content="{{ asset('assets/logo.png') }}">
     <!-- End Open Graph -->
-    <title>P-Kids | Login</title>
+    <title>P-Kids</title>
     <link rel="shortcut icon" href="{{ asset('assets/favicon.png') }}" type="image/x-icon">
     {{-- Font --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,9 +23,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="flex items-center justify-center h-screen">
+<body >
     <!-- ========== MAIN CONTENT ========== -->
-    @yield('auth')
+    @yield('kids')
     <!-- ========== END MAIN CONTENT ========== -->
     <!-- GPDI logo with text -->
     <div class="absolute left-0 right-0 flex items-center justify-center mt-6 bottom-2">
